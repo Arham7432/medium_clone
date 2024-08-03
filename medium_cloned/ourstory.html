@@ -104,6 +104,10 @@
             color: #242424;
         }
 
+        .hover-section a {
+            text-decoration: none;
+        }
+
         .hov-div {
             padding: 40px 25px;
             border-top: 1px solid #f2f2f2;
@@ -164,7 +168,6 @@
             font-style: normal;
             cursor: pointer;
         }
-
 
         @media (max-width: 768px) {
 
@@ -261,7 +264,9 @@
 
 
     <div class="hover-section">
-        <div class="hov-div"><a href="index.html">Start Reading</a><span>→</span></div>
+        <a href="index.html">
+            <div class="hov-div">Start Reading<span>→</span></div>
+        </a>
         <div class="hov-div">Start Writing <span>→</span></div>
         <div class="hov-div">Become a member <span>→</span></div>
     </div>
