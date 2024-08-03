@@ -61,10 +61,11 @@ header {
     cursor: pointer;
 }
 
-.get-started a{
+.get-started a {
     text-decoration: none;
     color: white;
 }
+
 .yellow-banner {
     background-image: url(assets/no-signal.png), linear-gradient(270deg, rgb(255, 192, 23) 14%, rgb(255, 227, 48) 32%, rgb(251, 240, 184) 51%);
     background-blend-mode: overlay;
@@ -174,7 +175,7 @@ header {
 }
 
 @media screen and (max-width:700px) {
-    .nav-links li a {
+    .nav-links span {
         display: none;
     }
 
@@ -216,7 +217,7 @@ header {
         background-color: #000000;
     }
 
-    .footer-links a{
+    .footer-links a {
         color: white;
     }
 
@@ -224,7 +225,7 @@ header {
         display: none;
     }
 
-    .right{
+    .right {
         display: none;
     }
 }
